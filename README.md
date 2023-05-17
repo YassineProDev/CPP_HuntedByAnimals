@@ -39,16 +39,14 @@
 
 
 ## Select the your grid
- 
-![1](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/78490a26-39e6-44f0-82b0-7cd7c57bc80b)
+  
+![1](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/66016047-69ba-454b-98b6-ec7d82fc1fe5)
 
 ## Select the mode
 
 ![2](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/8816b8b3-7847-46b0-9089-404eb575de3e)
 
 ## The grid is then displayed. Choose your direction.
-  
-![4444](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/5d5ed3c9-52bb-4fb9-8519-5582eb32f83c)
   
 ![3](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/5c5f4d3e-1ecf-48f1-917b-85bf15c66a43)
 
