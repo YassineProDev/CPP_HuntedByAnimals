@@ -26,19 +26,18 @@ void game::play()
      while(gameGrid.gameOver()==false)
      {
         std::cout<<std::endl;
-        std::cout<<"D = Player in difficult mode  -  P = Player in normal mode  -  L = Lion  - C = Cheetah  -  T = Trap  -  R = Rock"<<std::endl;
-        std::cout<<"SCORE :    Number of rounds : "<<gameGrid.getPlayerLifeTime()<<"    Number of wilcats dead : "<<gameGrid.getDeadWildAnimalsNumber()<<std::endl;
-        std::cout<<"Choose the direction :"<<std::endl;
+        std::cout<<"SCORE :    Number of rounds : "<<gameGrid.getPlayerLifeTime()<<"    Number of dead wilcats : "<<gameGrid.getDeadWildAnimalsNumber()<<std::endl;
+        std::cout<<"Choose the number corresponding to the direction you want to take :"<<std::endl;
 
         if(gameGrid.d_mode == 1)
         {
           do 
           {
-              std::cout<<"-----"<<std::endl;
-              std::cout<<" 789 "<<std::endl;
-              std::cout<<" 4 6 "<<std::endl;
-              std::cout<<" 123 "<<std::endl;
-              std::cout<<"-----"<<std::endl;
+              std::cout<<"           ......."<<std::endl;
+              std::cout<<"           . 789 ."<<std::endl;
+              std::cout<<"           . 4 6 ."<<std::endl;
+              std::cout<<"           . 123 ."<<std::endl;
+              std::cout<<"           ......."<<std::endl;
               std::cin>>direction;          
           }while(!(direction==1 || direction==2 || direction==3 ||direction==4 ||
           direction==6 || direction==7 || direction==8 || direction==9));  
@@ -47,11 +46,11 @@ void game::play()
         {
           do 
           {
-              std::cout<<"-----"<<std::endl;
-              std::cout<<"  8  "<<std::endl;
-              std::cout<<" 4 6 "<<std::endl;
-              std::cout<<"  2  "<<std::endl;
-              std::cout<<"-----"<<std::endl;
+              std::cout<<"           ......."<<std::endl;
+              std::cout<<"           .  8  ."<<std::endl;
+              std::cout<<"           . 4 6 ."<<std::endl;
+              std::cout<<"           .  2  ."<<std::endl;
+              std::cout<<"           ......."<<std::endl;
               std::cin>>direction;          
           }while(!(direction==2 ||direction==4 || direction==6  || direction==8 ));
         }
@@ -70,7 +69,7 @@ void game::play()
         }
         else
         {
-             std::cout<<"SCORE :    Number of rounds : "<<gameGrid.getPlayerLifeTime()<<"    Number of wilcats dead : "<<gameGrid.getDeadWildAnimalsNumber()<<std::endl<<std::endl;
+             std::cout<<"SCORE :    Number of rounds : "<<gameGrid.getPlayerLifeTime()<<"    Number of dead wilcats : "<<gameGrid.getDeadWildAnimalsNumber()<<std::endl<<std::endl;
              std::cout<<"The player is dead"<<std::endl;
              std::cout<<"----------------------------"<<std::endl;
              std::cout<<"--------- YOU LOSE ---------"<<std::endl;
@@ -81,7 +80,7 @@ void game::play()
      }
      if(gameGrid.playerLife())
      {
-       std::cout<<"SCORE :    Number of rounds : "<<gameGrid.getPlayerLifeTime()<<"    Number of wilcats dead : "<<gameGrid.getDeadWildAnimalsNumber()<<std::endl<<std::endl;
+       std::cout<<"SCORE :    Number of rounds : "<<gameGrid.getPlayerLifeTime()<<"    Number of dead wilcats : "<<gameGrid.getDeadWildAnimalsNumber()<<std::endl<<std::endl;
        std::cout<<"The wildcats are dead"<<std::endl;
        std::cout<<"---------------------------"<<std::endl;
        std::cout<<"--------- YOU WIN ---------"<<std::endl;
@@ -89,7 +88,7 @@ void game::play()
      }
      else
      {
-         std::cout<<"SCORE :    Number of rounds : "<<gameGrid.getPlayerLifeTime()<<"    Number of wilcats dead : "<<gameGrid.getDeadWildAnimalsNumber()<<std::endl<<std::endl;
+         std::cout<<"SCORE :    Number of rounds : "<<gameGrid.getPlayerLifeTime()<<"    Number of dead wilcats : "<<gameGrid.getDeadWildAnimalsNumber()<<std::endl<<std::endl;
          std::cout<<"The player is dead"<<std::endl;
          std::cout<<"----------------------------"<<std::endl;
          std::cout<<"--------- YOU LOSE ---------"<<std::endl; 

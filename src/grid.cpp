@@ -25,10 +25,10 @@ grid::grid(int choice, std::string name) : d_choice{choice}, nameFile{name},  de
 void grid::gridByDefault()
 {
     int choice;
-    std::cout<<"-------- SELECT MODE -----------"<<std::endl;
+    std::cout<<"-------------- SELECT MODE ----------------"<<std::endl;
     std::cout<<"1 - Normal mode"<<std::endl;
     std::cout<<"2 - Difficult mode"<<std::endl;
-    std::cout<<"--------------------------------"<<std::endl;
+    std::cout<<"-------------------------------------------"<<std::endl;
     std::cin>>choice;
     
     wildAnimalsList.push_back(std::make_unique<lion>(position(1, 1)));
@@ -70,8 +70,16 @@ void grid::gridImport(std::string nameFile)
    char c;
    ifs>>c>>height>>c>>width>>c;
 
-   d_height = height;
-   d_width = width;
+   if(height<8 || width<8)
+   {
+     d_height =8;
+     d_width =8;
+   }
+   else
+   {
+     d_height = height;
+     d_width = width;
+   }
 
    int line=0, column=0;
 

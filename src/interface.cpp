@@ -26,7 +26,7 @@ void interface::displayGrid(const grid& gr) const
     {
         for(int j=0; j<gr.d_width; j++)
         {
-            g[i][j] = '-';
+            g[i][j] = '.';
         }
     }
     
@@ -62,13 +62,39 @@ void interface::displayGrid(const grid& gr) const
     }
     for(int i=0; i<gr.d_height; i++)
     {
+        std::cout<<"         ";
         for(int j=0; j<gr.d_width; j++)
         {
-            std::cout<<g[i][j]; 
+            std::cout<<g[i][j]<<" "; 
+        }
+        if(i==1)
+        {
+           std::cout<<"      D = Player in difficult mode";
+        }
+        else if(i==2)
+        {
+           std::cout<<"      P = Player in normal mode";
+        }
+        else if(i==3)
+        {
+           std::cout<<"      L = Lion";
+        }
+        else if(i==4)
+        {
+           std::cout<<"      C = Cheetah";
+        }
+        else if(i==5)
+        {
+           std::cout<<"      T = Trap";
+        }
+        else if(i==6)
+        {
+           std::cout<<"      R = Rock";
         }
         std::cout<<std::endl;
     }
 }
+
 
 char interface::displayCheetah() const
 {
