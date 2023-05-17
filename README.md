@@ -31,27 +31,22 @@ g++ src/*.cpp -I headers -o main.exe ; ./main.exe
   
 # Presentation
 
-
-## Select the your grid
+## Select the your grid and the game mode
   
-![1](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/66016047-69ba-454b-98b6-ec7d82fc1fe5)
-
-## Select the mode
-  
-![222](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/5dcac32a-0813-4d1d-969c-0b126854b22e)
+![1](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/c4d19f78-67b8-4e85-b422-37d6d1aea348)
 
 ## The grid is then displayed. Choose your direction.
   
-![3](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/5c5f4d3e-1ecf-48f1-917b-85bf15c66a43)
+![2](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/7ef80de5-36b3-4a2a-8fe7-32a178f3f9ac)
 
 ## The player moves on the grid. Then all the wild animals move towards the player.
  
-![4](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/451cb92d-7e9a-48ba-9417-8913220191a3)
+![3](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/1003b9e9-6c7a-4c88-89b9-c5da58ad706e)
   
 ## Win the game by making the wild animals fall into the traps or by making them eat each other.
  
-![5](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/40ec13a6-b1db-41b6-b39c-889ff93936a2)
-  
+![4](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/4bacc023-489c-47e9-8134-57ffe814024e)
+
 </div>
 
   
