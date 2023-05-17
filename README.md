@@ -47,6 +47,7 @@ g++ src/*.cpp -I headers -o main.exe ; ./main.exe
   
 ![4](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/6d534921-3962-4af4-acd1-3225ed1997d8)
 
+ 
 </div>
 
   
