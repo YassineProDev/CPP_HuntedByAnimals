@@ -28,8 +28,6 @@ g++ src/*.cpp -I headers -o main.exe ; ./main.exe
 ```
 <div align="center"> 
   
-![0](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/fa9fd1d4-37fe-4e72-9658-93861132f943)
-  
   
 # Presentation
 
