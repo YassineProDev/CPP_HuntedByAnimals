@@ -44,7 +44,7 @@
 
 ## Select the mode
   
-![2](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/e0dc6a92-c9a2-4c55-a975-1f72c73c25f1)
+![222](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/5dcac32a-0813-4d1d-969c-0b126854b22e)
 
 ## The grid is then displayed. Choose your direction.
   
