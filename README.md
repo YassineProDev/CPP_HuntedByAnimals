@@ -2,7 +2,7 @@
   
 # Installation
   
-</div>
+</div> 
 
 ## Installation of the development environment
   
