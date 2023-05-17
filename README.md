@@ -23,13 +23,12 @@
 - Then open the project in Visual Studio Code by opening the file "CPP_Connect4-main".
 - In the Visual Studio Code terminal go in the current directory.
 <div align="center">
-  
-  </div>
+![11](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/695ff667-7b17-4d6a-875d-38683b1126a0)
+</div>
 
 - Then compile the project by writing  : g++ src/*.cpp -I headers -o main ; ./main.exe
 
-<div align="center">
-  
+<div align="center"> 
 ![0](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/fa9fd1d4-37fe-4e72-9658-93861132f943)
   
   
