@@ -48,6 +48,8 @@
 
 ## The grid is then displayed. Choose your direction.
   
+![4444](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/5d5ed3c9-52bb-4fb9-8519-5582eb32f83c)
+  
 ![3](https://github.com/YassineProDev/CPP_PlayerHuntedByWildAnimals/assets/120946916/5c5f4d3e-1ecf-48f1-917b-85bf15c66a43)
 
 ## The player moves on the grid. Then all the wild animals move towards the player.
