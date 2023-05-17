@@ -28,7 +28,7 @@
   
 </div>
 
-- Then compile the project by writing  : g++ src/*.cpp -I headers -o main ; ./main.exe
+- Then compile the project by writing  : g++ src/*.cpp -I headers -o main.exe ; ./main.exe
 
 <div align="center"> 
   
