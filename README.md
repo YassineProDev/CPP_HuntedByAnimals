@@ -20,7 +20,7 @@
 
 ## Opening and compilation of the project
 
-- Then open the project in Visual Studio Code by opening the file "CPP_PlayerHuntedByWildAnimals-main".
+- Then open the project in Visual Studio Code by opening the file "CPP_HuntedByAnimals-main".
 - In the Visual Studio Code terminal go in the current directory.
 - Then compile the project by writing  :
 ```bash
